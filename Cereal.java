@@ -22,4 +22,30 @@ public Cereal()
     FPC = 0.0;
 }
 
+// getters
+
+public String getName()
+{
+    return name;
+    
+}
+
+
+public double getFiber()
+{
+    return fiber;
+}
+
+public double getCups()
+{
+    return cups;
+}
+
+public double getFPC()
+{
+    return FPC;
+}
+
+
+
 }
