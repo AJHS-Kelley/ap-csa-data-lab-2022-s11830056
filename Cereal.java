@@ -1,17 +1,17 @@
 //Johann Burke, 1/12/2022, 8:29, AP Data Lab, v0.3
 public class Cereal
 {
-private String cerealName;
+private String name;
 private double fiber;
 private double cups;
-private double fiberPerCup;
+private double FPC;
 
-public Cereal(String cerealName, double fiber, double cups, double fiberPerCup)
+public Cereal(String name, double fiber, double cups, double FPC)
 {
-    name = cerealName;
+    name = name;
     fiber = fiber;
     cups = cups;
-    FPC = fiberPerCup;
+    FPC = FPC;
 
 }
 public Cereal()
@@ -47,9 +47,20 @@ public double getFPC()
 }
 public String toString()
 {
-    return "Cereal: " + name + "Fiber content:" + fiber + "serving size (in cups): " + cups + "Fiber Per Cup: " + FPC;
+    return "Cereal: " + name + "\nFiber content: " + fiber + "\nserving size (in cups): " + cups + "\nFiber Per Cup: " + FPC;
 
 }
+
+public static void main(String[]args)
+{
+Cereal food1 = new Cereal();
+System.out.println(food1.toString());
+
+}
+
+
+
+
 
 
 }
