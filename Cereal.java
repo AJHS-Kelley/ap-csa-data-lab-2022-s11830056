@@ -1,4 +1,4 @@
-//Johann Burke, 1/10/2022, 9:11, AP Data Lab, v0.2
+//Johann Burke, 1/12/2022, 8:29, AP Data Lab, v0.3
 public class Cereal
 {
 private String cerealName;
@@ -45,7 +45,11 @@ public double getFPC()
 {
     return FPC;
 }
+public String toString()
+{
+    return "Cereal: " + name + "Fiber content:" + fiber + "serving size (in cups): " + cups + "Fiber Per Cup: " + FPC;
 
+}
 
 
 }
